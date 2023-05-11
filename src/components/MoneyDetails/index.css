@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.money-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.balance-container {
+  background-color: #84cc16;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.img-amount {
+  height: 100px;
+  width: 100px;
+}
+
+.income-container {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.expense-container {
+  background-color: #7c3aed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}

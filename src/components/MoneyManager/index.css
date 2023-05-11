@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.moneyManager-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.moneyManager-header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  display: flex;
+  flex-direction: column;
+
+  background-size: cover;
+}
+
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddTransactionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: ridge 2px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #0b69ff;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: ridge 2px;
+  margin: 10px;
+  padding: 10px;
+  height: 280px;
+}
+.table-header-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: ridge 2px;
+}
+.table-header {
+  margin: 10px;
+}
